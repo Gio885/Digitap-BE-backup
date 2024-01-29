@@ -17,7 +17,7 @@ import java.util.Optional;
 public class AreaController {
 
    @Autowired
-   private AreaService areaService;
+   private AreaService areaService; //prova
 
     @GetMapping(EndPointRest.FIND_ALL_AREA)
     public ResponseEntity<List<AreaDto>> findAllAreaNoDetail(@RequestParam String language,@RequestParam String tipo){
